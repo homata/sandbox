@@ -8,7 +8,9 @@ from models import Item
 #from django.http import Http404
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render_to_response
+#from django.core.context_processors import csrf
 from django.template import RequestContext
+from forms import ItemSearchForm
 
 def item_page_display(request,item_id):
     # item_idに該当するオブジェクトを取得する
@@ -26,5 +28,22 @@ def item_page_display(request,item_id):
     #)
     ## HTTP Responseを返す。
     #return HttpResponse(t.render(c))
-    return render_to_response('page/item.html', RequestContext(request, {'item': item}))
+    return render_to_response('page/item.html',
+                    RequestContext(request, {'item': item}))
 
+def item_search(request):
+    #c = {}
+    #c.update(csrf(request))
+
+    if request.method == 'POST':
+        form = ItemSearchForm(request.POST)
+        if form.is_valid():
+            items = Item.objects.filter(item_name=form.cleaned_data['item_name'])
+            return render_to_response('page/item_search.html',
+                            RequestContext(request, {'form': form, 'items': items}))
+    else:
+        #検索フォームの初期表示
+        form = ItemSearchForm()
+
+    return render_to_response('page/item_search.html',
+                    RequestContext(request, {'form': form}))

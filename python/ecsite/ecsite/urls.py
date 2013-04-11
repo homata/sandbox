@@ -20,4 +20,5 @@ urlpatterns = patterns('',
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^item/(?P<item_id>\d+)/$', 'ecsite.itempage.views.item_page_display'),
     url(r'^itemsearch', 'ecsite.itempage.views.item_search'),
+    url(r'^cart', 'ecsite.itempage.views.do_cart'),
 )

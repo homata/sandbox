@@ -11,6 +11,7 @@ from django.shortcuts import render_to_response
 #from django.core.context_processors import csrf
 from django.template import RequestContext
 from forms import ItemSearchForm
+from cart import CartItem
 
 def item_page_display(request,item_id):
     # item_idに該当するオブジェクトを取得する
@@ -47,3 +48,23 @@ def item_search(request):
 
     return render_to_response('page/item_search.html',
                     RequestContext(request, {'form': form}))
+
+def do_cart(request):
+
+    # hiddenのitem_idを取得しintに型変換
+    item_id = int(request.POST['item_id'])
+    item = Item.objects.get(id=item_id)
+
+    # DBからItem情報を取得する。
+    cart_item_list = request.session.get('cart_item_list',[])
+    ci = CartItem()
+    ci.item_id = item_id
+    ci.item_code = item.item_code
+    ci.item_name = item.item_name
+    ci.price = item.price
+    ci.buy_num = request.POST['buy_num']
+    cart_item_list.append(ci)
+    request.session['cart_item_list'] = cart_item_list
+
+    return render_to_response('page/cart_item_list.html',
+                    RequestContext(request, {'cart_item_list': cart_item_list}))

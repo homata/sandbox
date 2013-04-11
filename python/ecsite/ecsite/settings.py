@@ -163,3 +163,6 @@ LOGGING = {
         },
     }
 }
+
+# cahce
+CACHE_BACKEND = 'file://' +  os.path.join(PROJECT_DIR, 'cache')

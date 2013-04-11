@@ -12,7 +12,9 @@ from django.shortcuts import render_to_response
 from django.template import RequestContext
 from forms import ItemSearchForm
 from cart import CartItem
+from django.views.decorators.cache import cache_page
 
+@cache_page(60 * 15)  # 単位は秒。15分キャッシュする。
 def item_page_display(request,item_id):
     # item_idに該当するオブジェクトを取得する
     #item = Item.objects.get(id=item_id)

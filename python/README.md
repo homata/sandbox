@@ -7,6 +7,10 @@ Python
 * [Puthin Japan (PyJUG)](http://www.python.jp/)
 * [Python入門](http://python.keicode.com/)
 
+* [Python 2.7ja1 documentation](http://docs.python.jp/2/)
+* [Python 言語リファレンス 2.7](http://docs.python.jp/2/reference/index.html#reference-index)
+* [Python 標準ライブラリ 2.7](http://docs.python.jp/2/library/index.html)
+
 Django
 ----------
 * [django本家](https://www.djangoproject.com/)
@@ -37,6 +41,7 @@ Django
     * Amazon RDS側でMySQL 5.1のデータベースサーバーが1台  
     という組み合わせが使われているとのこと。
 * [Perl, Python, Ruby比較](http://www.devsite.jankh.net/compppr.html#u9449bf1)
+* [Pythonの定番モジュール集](http://coreblog.org/ats/well-used-python-modules)
 
 ##### Djangoをインストールしたら最初にすること
 * [その1(プロジェクト作成・サーバ設定・表示確認)](http://blog.layer8.sh/ja/2011/12/28/django%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%9F%E3%82%89%E6%9C%80%E5%88%9D%E3%81%AB%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8-%E3%81%9D%E3%81%AE%EF%BC%91%E3%83%97/)
@@ -52,6 +57,26 @@ Django
 
 ##### OAuth
 * [pythonで署名付きリクエストを送る(2-legged OAuth)](http://taichino.com/programming/1057)
+
+##### easy_install、setuptools、pip - パッケージ管理
+* [easy_install、setuptools、pip - パッケージ管理](http://www.tomoyan.net/dokuwiki/python/easy_install)
+* [pipの使い方](http://d.hatena.ne.jp/rudi/20110107/1294409385)
+* [pipとvirtualenvがすごい便利だっと今日気付いた。](http://rokujyouhitoma.hatenablog.com/entry/20100928/1285685693)
+
+Linux & Mac 編(ez_setup.pyの場合)  
+
+1. ez_setup.py をダウンロード。  
+    $ curl -O http://peak.telecommunity.com/dist/ez_setup.py
+2. インストールする。  
+    $ sudo python ez_setup.py
+3. easy_install の動作確認をする。  
+    $ easy_install --help
+4. pip のインストールを行う。  
+    $ sudo easy_install pip
+5. pip を更新する場合  
+    $ sudo easy_install -U pip
+6. pip の動作確認をする。  
+    $ pip --version
 
 
 Memo

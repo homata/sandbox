@@ -42,6 +42,7 @@ Django
     という組み合わせが使われているとのこと。
 * [Perl, Python, Ruby比較](http://www.devsite.jankh.net/compppr.html#u9449bf1)
 * [Pythonの定番モジュール集](http://coreblog.org/ats/well-used-python-modules)
+* [Python OpenSSL Manual](http://pythonhosted.org/pyOpenSSL/pyOpenSSL.html)
 
 ##### Djangoをインストールしたら最初にすること
 * [その1(プロジェクト作成・サーバ設定・表示確認)](http://blog.layer8.sh/ja/2011/12/28/django%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%9F%E3%82%89%E6%9C%80%E5%88%9D%E3%81%AB%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8-%E3%81%9D%E3%81%AE%EF%BC%91%E3%83%97/)
@@ -117,5 +118,13 @@ Memo
     1|item-00001|item1|1000|
     sqlite> .exit
 
+
+---------------------------------
+
+メモ
+====================
+
+* [Python Module of the Week](http://ja.pymotw.com/2/)
+* [logging – ステータス、エラー、その他の情報をログ出力する](http://ja.pymotw.com/2/logging/)
 
 

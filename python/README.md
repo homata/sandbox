@@ -79,6 +79,28 @@ Linux & Mac 編(ez_setup.pyの場合)
 6. pip の動作確認をする。  
     $ pip --version
 
+virtualenv
+---------
+
+* [virtualenv](http://www.virtualenv.org/en/latest/)
+* [VIRTUALENV について](http://blog1.erp2py.com/2011/07/virtualenv.html)
+
+    $ sudo apt-get install python-pip
+    $ sudo pip install virtualenv
+
+pip & Django
+------------
+    $ sudo pip install Django==1.5.1
+    $ python
+    Python 2.7.3 (default, Aug  1 2012, 05:16:07)
+    [GCC 4.6.3] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> import django
+    >>>
+    >>> django.VERSION
+    (1, 5, 1, 'final', 0)
+    >>> exit()
+
 
 Memo
 ----------

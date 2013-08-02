@@ -1,0 +1,44 @@
+Apple Developer
+----------------
+
+### Developer Informtion
+
+* [Apple Developer](https://developer.apple.com/)
+* [iOS Dev Center](https://developer.apple.com/devcenter/ios/index.action)
+* [iOS Developer Library](https://developer.apple.com/library/ios/navigation/)
+
+### MapKit
+
+* [MapKit](https://developer.apple.com/library/ios/navigation/#section=Frameworks&topic=MapKit)
+* [Map Kit Framework Reference](https://developer.apple.com/library/ios/#documentation/MapKit/Reference/MapKit_Framework_Reference/_index.html#//apple_ref/doc/uid/TP40008210)
+
+iPhoneアプリ開発の虎の巻
+---------------------
+
+##### 追加するフレームワーク  
+* CoreLocation.framework
+* MapKit.framework
+
+##### CoreLocation
+* [CLLocationManager](http://iphone-tora.sakura.ne.jp/cllocationmanager.html)  
+  GPSの位置情報や電子コンパスの機能を使いたい場合はCLLocationManagerクラスを使用します。
+
+##### MapKit
+* [MKMapView](http://iphone-tora.sakura.ne.jp/mkmapview.html)  
+  iPhone上で地図表示する
+* [MKAnnotationView](http://iphone-tora.sakura.ne.jp/mkannotationview.html)  
+  独自に作成したアノテーションを使用したい場合に用いるクラス
+* [MKPinAnnotationView](http://iphone-tora.sakura.ne.jp/mkpinannotationview.html)  
+  図上に標準で用意されたアノテーションを使用する場合に使用するクラス
+
+Memo
+------------------
+
+* [Xcode Tips -MKMapView](http://lordlong.blogspot.jp/2012/06/xcode-tips-mkmapview.html)
+* [x:001:Xcode4でのautoreleaseがエラーになる](http://artmo.cocolog-nifty.com/blog/2012/01/x001xcode4autor.html)
+
+##### Yahoo Map
+* [10分で出来る雨雲チェックiPhoneアプリ！ YOLPで作る簡単便利地図アプリ](http://codezine.jp/article/detail/7137)
+
+##### Google Map
+* [MKMapViewでグールグマップを表示して、ピンをドロップするの！](https://sites.google.com/site/aoi68k/home/mkmapviewdegurugumappuwo-biao-shishite-pinwodoroppusuruno)

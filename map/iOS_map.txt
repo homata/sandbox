@@ -48,7 +48,8 @@ Memo
   -> 【図解】Xcode 4.5の使い方リファレンス超まとめ (1/3)
 * [iOS SDKで始めるObjective-C入門（4）](http://www.atmarkit.co.jp/ait/articles/1303/13/news023.html)  
   -> Xcode／Objective-Cで始めるプログラミング基本のキ (1/2)
-
+* [iOS SDKで始めるObjective-C入門（5）](http://www.atmarkit.co.jp/ait/articles/1306/18/news019.html)  
+  -> 人生と同じ？ プログラムの式と演算子、制御文を学ぶ (1/4)
 
 ##### Yahoo Map
 * [10分で出来る雨雲チェックiPhoneアプリ！ YOLPで作る簡単便利地図アプリ](http://codezine.jp/article/detail/7137)

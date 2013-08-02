@@ -37,6 +37,19 @@ Memo
 * [Xcode Tips -MKMapView](http://lordlong.blogspot.jp/2012/06/xcode-tips-mkmapview.html)
 * [x:001:Xcode4でのautoreleaseがエラーになる](http://artmo.cocolog-nifty.com/blog/2012/01/x001xcode4autor.html)
 
+
+* [iOSでジオ（GEO）プログミラング入門（1）](http://www.atmarkit.co.jp/ait/articles/1104/04/news117.html)
+
+* [iOS SDKで始めるObjective-C入門（1）](http://www.atmarkit.co.jp/ait/articles/1209/13/news144.html)  
+  -> WinユーザーがiPhoneアプリ開発を始めるためのMacの基礎知識 (1/4)
+* [iOS SDKで始めるObjective-C入門（2）](http://www.atmarkit.co.jp/ait/articles/1211/07/news017.html)  
+  -> iOSアプリ開発初心者に捧ぐ開発環境Xcodeの概要とインストール (1/4) 
+* [iOS SDKで始めるObjective-C入門（3）](http://www.atmarkit.co.jp/ait/articles/1212/05/news022.html)  
+  -> 【図解】Xcode 4.5の使い方リファレンス超まとめ (1/3)
+* [iOS SDKで始めるObjective-C入門（4）](http://www.atmarkit.co.jp/ait/articles/1303/13/news023.html)  
+  -> 
+
+
 ##### Yahoo Map
 * [10分で出来る雨雲チェックiPhoneアプリ！ YOLPで作る簡単便利地図アプリ](http://codezine.jp/article/detail/7137)
 
